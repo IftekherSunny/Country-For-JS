@@ -23,7 +23,7 @@ class Country
         // if the given country code will string
         // then it returns a single country dialing code and name
         if(_.isString(countryCode)) {
-            return this._getDialingCodeAndName(countryCode);
+            return this._getDialingCodeAndName(countryCode.toUpperCase());
         }
 
         // if the given country code will an array
@@ -31,7 +31,7 @@ class Country
         // respect to the given country code
         if(_.isArray(countryCode)) {
             return countryCode.map((code) => {
-                return this._getDialingCodeAndName(code);
+                return this._getDialingCodeAndName(code.toUpperCase());
             });
         }
 
@@ -63,7 +63,7 @@ class Country
      * @return {string}
      */
     getName(countryCode) {
-        return this._getDialingCodeAndName(countryCode).name;
+        return this._getDialingCodeAndName(countryCode.toUpperCase()).name;
     }
 
 
@@ -74,7 +74,7 @@ class Country
      * @return {string}
      */
     getDialingCode(countryCode) {
-        return this._getDialingCodeAndName(countryCode).code;
+        return this._getDialingCodeAndName(countryCode.toUpperCase()).code;
     }
 }
 
