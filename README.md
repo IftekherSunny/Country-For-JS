@@ -39,5 +39,23 @@ var country = new Country;
 country.getDialingCode('BD');
 ```
 
+## Build
+
+```
+npm run build
+```
+
+## Run Tests
+
+```
+npm test
+```
+
+## Run Tests In Watch Mode
+
+```
+npm test:watch
+```
+
 ## License
 This package is licensed under the [MIT License](https://github.com/iftekhersunny/Country-For-JS/blob/master/LICENSE)
