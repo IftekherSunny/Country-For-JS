@@ -4,6 +4,20 @@
 
 Sun Country is the package that helps you to get country name and dialing code by the country ISO 3166-1 Alpha-2 code.
 
+### Installation Process
+
+##### Node
+
+```
+npm install --save sun-country
+```
+
+##### Browser
+
+```html
+<script src="/path/to/country.min.js"></script>
+```
+
 ### Basic Uses
 
 ##### Get all countries name and dialing code
