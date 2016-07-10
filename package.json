@@ -29,7 +29,7 @@
     "build": "gulp",
     "test": "mocha --compilers js:babel-core/register test/**/*.spec.js",
     "test:watch": "mocha --compilers js:babel-core/register test/**/*.spec.js -w",
-    "prepublish": "babel src/ -d es5/"
+    "prepublish": "./node_modules/babel-cli/bin/babel.js src/ -d es5/"
   },
   "keywords": [
     "country",
@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "babel": "^6.5.2",
+    "babel-cli": "^6.10.1",
     "babel-core": "^6.10.4",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-1": "^6.5.0",
