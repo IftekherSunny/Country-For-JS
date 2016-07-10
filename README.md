@@ -1,8 +1,9 @@
 ### Country
 
+[![Build Status](https://travis-ci.org/IftekherSunny/Country-For-JS.svg?branch=master)](https://travis-ci.org/IftekherSunny/Country-For-JS) [![Total Downloads](https://img.shields.io/npm/dt/sun-country.svg)](https://www.npmjs.com/package/sun-country) [![Version](https://img.shields.io/npm/v/sun-country.svg)](https://www.npmjs.com/package/sun-country) [![License](https://img.shields.io/github/license/iftekhersunny/country-for-js.svg)](https://github.com/iftekhersunny/Country-For-JS/blob/master/LICENSE)
+
 Sun Country is the package that helps you to get country name and dialing code by the country ISO 3166-1 Alpha-2 code.
 
-[![Build Status](https://travis-ci.org/IftekherSunny/Country-For-JS.svg?branch=master)](https://travis-ci.org/IftekherSunny/Country-For-JS) [![Total Downloads](https://img.shields.io/npm/dt/sun-country.svg)](https://www.npmjs.com/package/sun-country) [![Version](https://img.shields.io/npm/v/sun-country.svg)](https://www.npmjs.com/package/sun-country) [![License](https://img.shields.io/github/license/iftekhersunny/country-for-js.svg)](https://github.com/iftekhersunny/Country-For-JS/blob/master/LICENSE)
 ### Basic Uses
 
 ##### Get all countries name and dialing code
