@@ -21,7 +21,7 @@
       "url": "https://github.com/iftekhersunny/Country-For-JS/blob/master/LICENSE"
     }
   ],
-  "main": "./es5/index.js",
+  "main": "./build/index.js",
   "engines": {
     "node": ">= 0.6.0"
   },
@@ -29,7 +29,7 @@
     "build": "gulp",
     "test": "mocha --compilers js:babel-core/register test/**/*.spec.js",
     "test:watch": "mocha --compilers js:babel-core/register test/**/*.spec.js -w",
-    "prepublish": "./node_modules/babel-cli/bin/babel.js src/ -d es5/"
+    "prepublish": "./node_modules/babel-cli/bin/babel.js src/ -d build/"
   },
   "keywords": [
     "country",
