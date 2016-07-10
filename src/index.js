@@ -87,4 +87,4 @@ class Country
 global.Country = Country;
 
 
-export default Country;
+module.exports = Country;

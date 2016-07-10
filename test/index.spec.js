@@ -62,21 +62,21 @@ describe('Country', () => {
 
 
     it('throws an exception when we will try to get a country name and dialing code using invalid alpha 2 code', () => {
-        expect(country.get.bind(country, 'unknown')).to.throw('The country ISO 3166-1 Alpha-2 code [ unknown ] does not exists.')
+        expect(country.get.bind(country, 'unknown')).to.throw('The country ISO 3166-1 Alpha-2 code [ UNKNOWN ] does not exists.')
     });
 
 
     it('throws an exception when we will try to get an array of country name and dialing code using an array of country alpha 2 codes where contains an invalid alpha 2 code', () => {
-        expect(country.get.bind(country, ['BD', 'unknown'])).to.throw('The country ISO 3166-1 Alpha-2 code [ unknown ] does not exists.')
+        expect(country.get.bind(country, ['BD', 'unknown'])).to.throw('The country ISO 3166-1 Alpha-2 code [ UNKNOWN ] does not exists.')
     });
 
 
     it('throws an exception when we will try to get a country name using invalid alpha 2 code', () => {
-        expect(country.getName.bind(country, 'unknown')).to.throw('The country ISO 3166-1 Alpha-2 code [ unknown ] does not exists.')
+        expect(country.getName.bind(country, 'unknown')).to.throw('The country ISO 3166-1 Alpha-2 code [ UNKNOWN ] does not exists.')
     });
 
 
     it('throws an exception when we will try to get a country dialing code using invalid alpha 2 code', () => {
-        expect(country.getDialingCode.bind(country, 'unknown')).to.throw('The country ISO 3166-1 Alpha-2 code [ unknown ] does not exists.')
+        expect(country.getDialingCode.bind(country, 'unknown')).to.throw('The country ISO 3166-1 Alpha-2 code [ UNKNOWN ] does not exists.')
     });
 });
