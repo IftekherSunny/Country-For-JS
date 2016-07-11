@@ -15,7 +15,7 @@ npm install --save sun-country
 ##### Browser
 
 ```html
-<script src="/path/to/country.min.js"></script>
+<script src="/path/to/dist/country.min.js"></script>
 ```
 
 ### Basic Uses
